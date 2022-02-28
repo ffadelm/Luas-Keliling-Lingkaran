@@ -19,7 +19,6 @@ public class nowController {
         keliling = 2 * phi * r;
         
         DecimalFormat df = new DecimalFormat("#.##");
-        
         model.addAttribute("Jari", jari);
         model.addAttribute("Luas", luas);
         model.addAttribute("Keliling", df.format(keliling));
